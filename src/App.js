@@ -18,8 +18,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/profile" element={<PrivateRoute element={<ProfilePage />} />} />
-        <Route path="/dashboard" element={<PrivateRoute element={<DashboardPage />} />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/dashboard" element={<DashboardPage />}/>
       </Routes>
       <Footer />
     </Router>

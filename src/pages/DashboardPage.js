@@ -14,12 +14,12 @@ const DashboardContainer = styled.div`
 `;
 
 function DashboardPage() {
-  const { user } = useContext(UserContext);
+  // const { user } = useContext(UserContext);
 
   return (
     <DashboardContainer>
       <h2>Dashboard</h2>
-      {user ? (
+      {/* {user ? ( */} 
         <div>
           <ResumeBuilder />
           <JobListings />
@@ -27,9 +27,9 @@ function DashboardPage() {
           <InterviewPrep />
           <Feedback />
         </div>
-      ) : (
+      {/* ) : (
         <p>Please log in to view your dashboard.</p>
-      )}
+      )} */}
     </DashboardContainer>
   );
 }
