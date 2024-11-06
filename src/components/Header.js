@@ -32,11 +32,13 @@ const StyledLink = styled(Link)`
 function Header() {
   return (
     <Nav>
+<img src="logo.png" alt="Logo" style={{ height: '40px' }} />
       <h1>SitXpert Placement Assistant</h1>
       <Ul>
         <Li><StyledLink to="/">Home</StyledLink></Li>
-        <Li><StyledLink to="/profile">Profile</StyledLink></Li>
         <Li><StyledLink to="/dashboard">Dashboard</StyledLink></Li>
+        <Li><StyledLink to="/about">About</StyledLink></Li>
+        <Li><StyledLink to="/contact">Contact</StyledLink></Li>
       </Ul>
     </Nav>
   );

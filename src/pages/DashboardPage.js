@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { UserContext } from '../context/UserContext';
+import React from 'react';
 import ResumeBuilder from '../components/ResumeBuilder';
 import JobListings from '../components/JobListings';
 import CareerPath from '../components/CareerPath';
